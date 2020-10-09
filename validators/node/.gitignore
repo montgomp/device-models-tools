@@ -1,0 +1,8 @@
+## ignore the typescript compiled output
+dist
+
+## ensure node modules are ignored
+node_modules
+
+## ignore test coverage
+coverage

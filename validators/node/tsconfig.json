@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": ["es5", "es6", "dom"],
+        "allowJs": true,
+        "moduleResolution": "node",
+        "rootDir": ".",
+        "baseUrl": "."
+    },
+    "include": [
+        "./src/**/*",
+        "validate.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "jest",
+        "webpack.*",
+        "**/*.spec.ts",
+        "**/*.spec.tsx"
+    ]
+}
